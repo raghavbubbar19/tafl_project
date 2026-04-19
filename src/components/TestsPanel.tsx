@@ -23,7 +23,7 @@ const TEST_CASES: TestCase[] = [
   { machineName: 'Binary Palindrome Checker', description: '"11" is a palindrome', tapeInputs: ['11', ''], expectedStatus: 'accepted' },
   { machineName: 'Binary Palindrome Checker', description: '"1001" is a palindrome', tapeInputs: ['1001', ''], expectedStatus: 'accepted' },
   { machineName: 'Binary Palindrome Checker', description: '"10110" is NOT a palindrome', tapeInputs: ['10110', ''], expectedStatus: 'rejected' },
-  { machineName: 'Binary Palindrome Checker', description: '"01010" is NOT a palindrome', tapeInputs: ['01010', ''], expectedStatus: 'rejected' },
+  { machineName: 'Binary Palindrome Checker', description: '"01000" is NOT a palindrome', tapeInputs: ['01000', ''], expectedStatus: 'rejected' },
 
   // String copy
   { machineName: 'String Copy', description: 'Copies "101" to tape 2', tapeInputs: ['101', ''], expectedStatus: 'accepted', maxSteps: 20 },
